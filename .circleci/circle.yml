@@ -1,0 +1,5 @@
+deployment
+  staging
+    branch glitch
+    heroku
+      appname amis0xchange

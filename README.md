@@ -11,7 +11,7 @@
 &nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![ßtesting AmisDex](https://img.shields.io/badge/ßtesting-amisdex-lightblue.svg)](https://amisdex.github.io/amis-exchange-www)
 
 
-[![CircleCI](https://circleci.com/gh/Ami-Solution/amis0xchange.svg?style=svg)](https://circleci.com/gh/Ami-Solution/amis0xchange/)
+[![CircleCI](https://circleci.com/gh/Ami-Solution/amis0xchange/tree/glitch.svg?style=svg)](https://circleci.com/gh/Ami-Solution/amis0xchange/tree/glitch)
 
 
 # Amis0xchange
