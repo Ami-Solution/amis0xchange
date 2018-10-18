@@ -3,10 +3,12 @@
   "description": "\"ERC20 Token Trading Site\"",
   "main": "index.js",
   "authors": [
-    "Ura"
+    "amisolution"
   ],
   "license": "ISC",
   "keywords": [
+    "amis",
+    "0x",
     "trading",
     "exchange"
   ],
