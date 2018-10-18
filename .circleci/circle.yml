@@ -1,5 +1,5 @@
 deployment
-  staging
+  prod
     branch glitch
     heroku
       appname amis0xchange
