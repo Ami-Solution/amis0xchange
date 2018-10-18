@@ -11,9 +11,9 @@
 &nbsp;[![αtesting EthenMarket](https://img.shields.io/badge/αtesting-ethenmarket-lightgrey.svg)](https://ethen.market/949bed886c739f1a3273629b3320db0c5024c719)&nbsp;[![ßtesting AmisDex](https://img.shields.io/badge/ßtesting-amisdex-lightblue.svg)](https://amisdex.github.io/amis-exchange-www)
 
 
-# ERC20-Exchange-based-on-0x
+# Amis0xchange
 
 0x experimental decentralized exchange part of the ERC20-AMIS Token Future, options and crypto derivatives Project
 
-- [ERC20-Exchange-based-on-0x live on github.io](https://amis-erc20.github.io/ERC20-Exchange-based-on-0x/public/)
-- [ERC20-Exchange-based-on-0x Github repo Example](https://github.com/amis-erc20/ERC20-Exchange-based-on-0x/public/)
+- [amis0xchange live on github.io](https://ami-solution.github.io/amis0xchange/public/)
+- [amis0xchange Github repo Example](https://github.com/amis-erc20/amis0xchange/public/)

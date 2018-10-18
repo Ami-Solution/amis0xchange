@@ -1,6 +1,8 @@
 /* Cryptocurrency Exchange Server 
     Ura Novic
     2018-01-15
+    Amisolution
+    2018-10-16
 */
 var express = require('express')
   , http = require('http')

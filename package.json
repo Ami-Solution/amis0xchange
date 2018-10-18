@@ -4,13 +4,13 @@
   "description": "\"ERC20 Token Trading Site\"",
   "main": "index.js",
   "scripts": {
-    "test": "node index"
+    "start": "node index"
   },
   "keywords": [
     "trading",
     "exchange"
   ],
-  "author": "Ura",
+  "author": "amisolution",
   "license": "ISC",
   "dependencies": {
     "0x.js": "^0.32.4",
