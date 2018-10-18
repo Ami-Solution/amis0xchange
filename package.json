@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
   },
-   
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ami-solution/amis0xchange.git"
@@ -16,6 +16,8 @@
     "url": "https://github.com/ami-solution/amis0xchange/issues"
   },
   "keywords": [
+    "amis",
+    "0x",
     "trading",
     "exchange"
   ],
@@ -23,7 +25,8 @@
   "license": "ISC",
   "homepage": "https://amis0xchange.glitch.me",
   "dependencies": {
-    "0x.js": "0.x",
+    "babel-core": "x.x",
+    "0x.js": "0.29.x",
     "ajax-request": "^1.2.3",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
@@ -40,6 +43,27 @@
     "request": "^2.83.0",
     "serve-favicon": "^2.4.5",
     "serve-static": "^1.13.1",
-    "vhost": "^3.0.2"
+    "vhost": "^3.0.2",
+    "jest": "^21.2.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "mapCoverage": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/lib/"
+    ],
+    "testRegex": "(/test/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
   }
 }
