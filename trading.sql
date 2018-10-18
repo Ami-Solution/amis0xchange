@@ -2,7 +2,7 @@
 SQLyog Enterprise - MySQL GUI v8.12 
 MySQL - 5.6.16 : Database - trading
 *********************************************************************
-*/
+*/
 
 /*!40101 SET NAMES utf8 */;
 
@@ -32,7 +32,7 @@ CREATE TABLE `user_info` (
 
 /*Data for the table `user_info` */
 
-insert  into `user_info`(`id`,`username`,`userpassword`,`useremail`,`walletaddress`,`seed`,`isAllow`) values (31,'a','0b4e7a0e5fe84ad35fb5f95b9ceeac79','a@a.aaaa','0x746ae99b714f35a3160cb75678affb618d519ac5','','N'),(32,'a','f6fdffe48c908deb0f4c3bd36c032e72','a@a.cd','0xfbea336a53688cf260d05e35f2909a9a49a79782','','N'),(33,'admin','f6fdffe48c908deb0f4c3bd36c032e72','admin@admin.com','0x98b7b065f7634822dd09eca7b40c0f337ab4bff4','foil profit local prison kit time history hard ankle lazy machine region','N'),(34,'test','f6fdffe48c908deb0f4c3bd36c032e72','test@gm.com','0x1da731ca877eef091f0b45d291f599ffcf2bf2ab','gossip hurry illness timber fever life naive own hole butter illegal brush','N');
+insert  into `user_info`(`id`,`username`,`userpassword`,`useremail`,`walletaddress`,`seed`,`isAllow`) values (31,'a','0b4e7a0e5fe84ad35fb5f95b9ceeac79','a@a.aaaa'',5','','N'),(32,'a','f6fdffe48c908deb0f4c3bd36c032e72','a@a.cd','0xfbea336a53688cf260d05e35f2909a9a49a79782','','N'),(33,'admin','f6fdffe48c908deb0f4c3bd36c032e72','admin@admin.com',0x719B8BE8E2c3f07575d41A2580011Db702029E5b4','foil profit local prison kit time history hard ankle lazy machine region',YN'),(34,'test','f6fdffe48c908deb0f4c3bd36c032e72','test@gm.com'',0x57b00c981363C67B11E07EaA71364BF20E8025Feb','gossip hurry illness timber fever life naive own hole butter illegal brush',N');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

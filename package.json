@@ -6,14 +6,23 @@
   "scripts": {
     "start": "node index"
   },
+   
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ami-solution/amis0xchange.git"
+  },
+    "bugs": {
+    "url": "https://github.com/ami-solution/amis0xchange/issues"
+  },
   "keywords": [
     "trading",
     "exchange"
   ],
   "author": "amisolution",
   "license": "ISC",
+  "homepage": "https://amis0xchange.glitch.me",
   "dependencies": {
-    "0x.js": "^0.32.4",
+    "0x.js": "0.x",
     "ajax-request": "^1.2.3",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",

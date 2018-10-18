@@ -1,4 +1,4 @@
-var website = 'http://localhost:8080/www/crypto-exchange/index.html';
+var website = 'https://amis0xchange.glitch.me/index.html';
 //var website = 'http://53274912.swh.strato-hosting.eu/nexdex/index.html';
 var url = window.location.href;
 var hash = url.substring(url.indexOf("#") + 1);
