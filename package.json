@@ -4,29 +4,16 @@
   "description": "\"ERC20 Token Trading Site\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "build": "babel src -d lib",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ami-solution/amis0xchange.git"
-  },
-    "bugs": {
-    "url": "https://github.com/ami-solution/amis0xchange/issues"
+    "start": "node index"
   },
   "keywords": [
-    "amis",
-    "0x",
     "trading",
     "exchange"
   ],
   "author": "amisolution",
   "license": "ISC",
-  "homepage": "https://amis0xchange.glitch.me",
   "dependencies": {
-    "babel-core": "x.x",
-    "0x.js": "0.29.x",
+    "0x.js": "^0.32.4",
     "ajax-request": "^1.2.3",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
@@ -43,10 +30,6 @@
     "request": "^2.83.0",
     "serve-favicon": "^2.4.5",
     "serve-static": "^1.13.1",
-    "vhost": "^3.0.2",
-    "jest": "^21.2.1"
-  },
-  "engines": {
-    "node": "8.x"
+    "vhost": "^3.0.2"
   }
 }

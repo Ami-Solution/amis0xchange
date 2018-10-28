@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <amisolution> -- <dev> -- <amis_erc20>
 
 # THANKS
 
-    <name>
+    <ami-solution>
 
 # TECHNOLOGY COLOPHON
 
