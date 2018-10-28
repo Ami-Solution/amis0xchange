@@ -77,7 +77,7 @@ function drawChart(bid, ask, times) {
             gridLineWidth: 1
         },
         tooltip: {
-            pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/>warheads in {point.x}'
+            pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/>volume in {point.x}'
         },
         plotOptions: {
             area: {

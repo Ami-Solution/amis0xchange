@@ -23,7 +23,7 @@ ERC20 Exchange based on 0x is a KYC enabled web front end designed to interact w
 
 ## demo
 Try it
-[https://amis-erc20.github.io/ERC20-Exchange-based-on-0x](https://amisdex.github.io/amis-exchange-www/exchange/?pairId=DEMO-ETH&vu=1)
+[https://amis0xchange.glitch.me/](https://amis0xchange.glitch.me/)
 
 ## Kovan
 Our fee recipient address:
@@ -41,4 +41,4 @@ Fork the repo if you want to contribute
 
 Execute
 
-git clone https://github.com/amis-erc20/ERC20-Exchange-based-on-0x
+git clone https://github.com/ami-solution/amis0xchange

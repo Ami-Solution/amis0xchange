@@ -404,7 +404,7 @@ $('#login_form').submit(function() {
             status('Error: ' + xhr.status);
         },
         success: function(response) {
-            if (response.responseDesc == 'Sucess') {
+            if (response.responseDesc == 'Success') {
                 logIn(log_email, log_password);
             } else {
                 alert(response.responseDesc);
@@ -451,7 +451,7 @@ function isCaptcha(flag) {
             type: 'POST',
             data: $("#signup_form").serialize(),
             success: function(res) {
-                if (res.responseDesc == 'Sucess') {
+                if (res.responseDesc == 'Success') {
                     signUp(username, useremail, pwd);
                 } else {
                     $(".captcha-alert-text").text(res.responseDesc);
@@ -483,7 +483,7 @@ function isCaptcha(flag) {
             type: 'POST',
             data: $("#login_form").serialize(),
             success: function(res) {
-                if (res.responseDesc == 'Sucess') {
+                if (res.responseDesc == 'Success') {
                     logIn(email, userpwd);
                 } else {
                     $(".captcha-log-text").text(res.responseDesc);
@@ -506,11 +506,11 @@ function signUp(username, useremail, pwd) {
         data: { username: username, useremail: useremail, userpassword: pwd, wallet_addr: wallet_addr, wallet_seed: wallet_seed },
         success: function(res) {
             if (res == 'exists') {
-                $('.captcha-alert-text').text('Already Your email address exists.');
+                $('.captcha-alert-text').text('Your email address is already registered with us.');
                 $(".captcha-alert").show();
                 return false;
             } else if (res == 'success') {
-                $('.captcha-alert-text').text('Register Success.');
+                $('.captcha-alert-text').text('Registration is a Success.');
                 $(".captcha-alert").show();
                 $("#signupmodal").fadeOut();
             } else {
